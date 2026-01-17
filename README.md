@@ -37,7 +37,6 @@ Used for:
 - ASN
 
 Example:
-```http
 http://ip-api.com/json/8.8.8.8
 Ping0 (RapidAPI)
 Used for:
