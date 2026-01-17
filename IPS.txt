@@ -1,0 +1,4 @@
+#put ur ips here like any format x.x.x.x or x.x.x.x:port:username:password or prototocol://username:password@x.x.x.x:port (i just tested these formats and thats normally the case idk about others)
+#i will leave some examples here 
+8.8.8.8
+1.1.1.1
