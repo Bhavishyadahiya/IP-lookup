@@ -49,6 +49,67 @@ Used for:
 Requires free RapidAPI key.
 ---
 
+---
+
+## 📥 Installation
+
+### 🔹 Clone from GitHub
+
+`git clone https://github.com/Bhavishyadahiya/IP-lookup.git
+cd IP-lookup`
+
+
+USAGE GUIDE
+===========
+
+Step 1 — Add proxy list
+-----------------------
+
+Put your proxies or IPs into IPS.txt
+
+Any format is accepted, for example:
+
+1.1.1.1
+5.151.150.1:11631:user:pass
+socks5://user:pass@137.155.23.15:10880
+http://login:pw@8.8.8.8:8080
+
+The script automatically extracts the IP address.
+
+
+Step 2 — Configure API key
+--------------------------
+
+Open config.conf and add your RapidAPI key:
+
+PING0_KEY="YOUR_RAPIDAPI_KEY_HERE"
+
+Optional performance tuning:
+
+MAX_JOBS=4
+JOB_DELAY=0.3
+
+
+Step 3 — Make script executable
+-------------------------------
+
+chmod +x IPchecker_tui.sh
+
+
+Step 4 — Run the checker
+-----------------------
+
+./IPchecker_tui.sh
+
+or
+
+bash IPchecker_tui.sh
+
+The terminal UI will update live while scanning.
+
+
+
+
 ## 🧾 Output Columns
 | Column | Source | Description |
 |--------|--------|------------|
