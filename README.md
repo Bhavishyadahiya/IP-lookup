@@ -69,7 +69,7 @@ Requires free RapidAPI key.
 
 ```text
 .
-├── IPchecker_tui.sh
+├── check.sh
 ├── IPS.txt
 ├── config.conf
 └── README.md
