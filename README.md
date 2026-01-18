@@ -69,10 +69,10 @@ Put your proxies or IPs into IPS.txt
 
 Any format is accepted, for example:
 
-`1.1.1.1
+``1.1.1.1
 5.151.150.1:11631:user:pass
 socks5://user:pass@137.155.23.15:10880
-http://login:pw@8.8.8.8:8080`
+http://login:pw@8.8.8.8:8080``
 
 The script automatically extracts the IP address.
 
